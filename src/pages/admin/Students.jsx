@@ -41,7 +41,7 @@ export default function AdminStudents() {
   return (
     <div className="flex">
       <AdminSidebar />
-      <div className="flex-1 p-6">
+      <div className="ml-[25%] flex-1 p-6">
         <h2 className="text-2xl font-bold mb-4">Register a Student</h2>
         <form onSubmit={submit} className="bg-white p-6 rounded-xl shadow space-y-6">
           <div className="grid md:grid-cols-2 gap-4">

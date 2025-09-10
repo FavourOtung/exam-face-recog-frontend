@@ -22,7 +22,7 @@ export default function AdminLogin() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-6">
+    <div className="min-h-screen flex items-center justify-center bg-gray-300 p-6">
       <form onSubmit={submit} className="bg-white p-8 rounded-xl shadow w-full max-w-md space-y-4">
         <h2 className="text-xl font-bold">Admin Login</h2>
         {err && <p className="text-red-600 text-sm">{err}</p>}

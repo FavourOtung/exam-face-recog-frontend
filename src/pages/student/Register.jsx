@@ -63,7 +63,7 @@ export default function StudentRegister() {
       <img src="/student2.jpg" className="lg:w-[50%] sm:w-0 w-0 fixed h-[100vh] object-cover"/>
       <form onSubmit={submit} className="max-w-3xl mx-auto bg-slate-800 text-white p-6 lg:ml-[50%] shadow space-y-6">
         <div className="text-xl pb-7 font-bold w-fit ">
-          <h2 className="text-xl  font-bold w-auto text-center text-orange-500">Student Registration</h2>
+          <h2 className="text-xl  font-bold w-auto text-center text-orange-500">Student Registration .</h2>
           {/* <div className=" border-b border-orange-500 w-full p-2"></div> */}
 
         </div>
@@ -91,13 +91,13 @@ export default function StudentRegister() {
         <div className="border grid grid-items-center rounded p-4">
           <h3 className="font-semibold mb-2">Face Capture</h3>
           <FaceCapture onDescriptor={setFaceDescriptor} />
-          <p className="text-xs text-gray-600 mt-2">
+          <p className="text-xs text-gray-500 mt-2">
             Descriptor status: {faceDescriptor ? "✅ ready" : "❌ not captured"}
           </p>
         </div>
 
         <div className="flex gap-5">
-          <button className="bg-white text-black px-10 hover:bg-orange-500 hover:text-white py-2 rounded">Register</button>
+          <button className="bg-white text-black px-10 hover:bg-orange-600 hover:text-white py-2 rounded">Register</button>
           <Link to="/student/login" className="px-2 py-2 text-xs ">Back to Login ››</Link>
         </div>
       </form>

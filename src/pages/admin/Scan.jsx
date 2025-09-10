@@ -24,7 +24,7 @@ export default function AdminScan() {
   return (
     <div className="flex">
       <AdminSidebar />
-      <div className="flex-1 p-6 space-y-4">
+      <div className="ml-[25%] flex-1 p-6 space-y-4">
         <h2 className="text-2xl font-bold">Scan Student</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3">

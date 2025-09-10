@@ -20,7 +20,7 @@ export default function AdminHistory() {
   return (
     <div className="flex">
       <AdminSidebar />
-      <div className="flex-1 p-6">
+      <div className="ml-[25%] flex-1 p-6">
         <h2 className="text-2xl font-bold mb-4">Scan History</h2>
         {!rows.length && <p className="text-sm text-gray-600">No logs yet (or enable logging on backend).</p>}
         <div className="overflow-x-auto bg-white rounded-xl shadow">

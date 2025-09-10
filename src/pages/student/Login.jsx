@@ -22,15 +22,18 @@ export default function StudentLogin() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-6">
-      <form onSubmit={submit} className="bg-white p-8 rounded-xl shadow w-full max-w-md space-y-4">
-        <h2 className="text-xl font-bold">Student Login</h2>
+    <div className="min-h-screen font-poppins bg-white flex">
+      <img src="/student3.jpg" className="lg:w-[50%] sm:w-0 w-0 fixed h-[100vh] object-cover"/>
+      <form onSubmit={submit} className="max-w-3xl mx-auto bg-slate-800 text-white p-16 lg:ml-[50%] lg:w-1/2 w-full shadow space-y-6 flex flex-col justify-center">
+        <h2 className="text-xl font-bold text-orange-500">Student Login .</h2>
         {err && <p className="text-red-600 text-sm">{err}</p>}
-        <input className="w-full border p-2 rounded" placeholder="Matric" value={matric} onChange={(e)=>setMatric(e.target.value)} />
-        <input className="w-full border p-2 rounded" placeholder="Password" type="password" value={password} onChange={(e)=>setPassword(e.target.value)} />
-        <button className="w-full bg-blue-600 text-white py-2 rounded">Login</button>
+        <label className="block text-sm mb-1">Enter Matric Number:</label>
+        <input className="w-full border-b p-2 outline-none" value={matric} onChange={(e)=>setMatric(e.target.value)} />
+        <label className="block text-sm mb-1">Enter Password:</label>
+        <input className="w-full border-b p-2 outline-none" type="password" value={password} onChange={(e)=>setPassword(e.target.value)} />
+        <button className="w-full bg-orange-500 text-white py-2 rounded">Login</button>
         <p className="text-sm text-center">
-          No account? <Link to="/student/register" className="text-blue-600">Register</Link>
+          No account? <Link to="/student/register" className="text-gray-400">Register</Link>
         </p>
       </form>
     </div>

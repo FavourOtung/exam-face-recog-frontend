@@ -1,0 +1,81 @@
+.letterW{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px) scale(.9);
+    animation: bounceIn .5s ease-in-out forwards;
+    font-size: 3.5rem;
+    color: rgb(37, 38, 48);
+    padding-right: 5px;
+}
+.letterE{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px) scale(.9);
+    animation: bounceIn .5s ease-in-out forwards;
+    animation-delay: .2s;
+    font-size: 3.5rem;
+    color: rgb(37, 38, 48);
+}
+.letterL{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px) scale(.9);
+    animation: bounceIn .5s ease-in-out forwards;
+    animation-delay: .4s;
+    font-size: 3.5rem;
+    color: rgb(37, 38, 48);
+}.letterC{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px) scale(.9);
+    animation: bounceIn .5s ease-in-out forwards;
+    animation-delay: .6s;
+    font-size: 3.5rem;
+    color: rgb(37, 38, 48);
+
+}.letterO{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px) scale(.9);
+    animation: bounceIn .5s ease-in-out forwards;
+    animation-delay: .8s;
+    font-size: 3.5rem;
+    color: rgb(37, 38, 48);
+
+}.letterM{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px) scale(.9);
+    animation: bounceIn .5s ease-in-out forwards;
+    animation-delay: 1s;
+    font-size: 3.5rem;
+    color: rgb(37, 38, 48);
+}.letterE1{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px) scale(.9);
+    animation: bounceIn .5s ease-in-out forwards;
+    animation-delay: 1.2s;
+
+    font-size: 3.5rem;
+    color: rgb(37, 38, 48);
+}.letterP{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px) scale(.9);
+    animation: bounceIn .5s ease-in-out forwards;
+    animation-delay: 1.4s;
+
+    font-size: 3.5rem;
+    padding-left: 10px;
+    color: rgb(37, 38, 48);
+}
+
+@keyframes bounceIn{
+    0% {opacity: 0; transform: translateY(-100px) scale(.9); }
+    20% {opacity: 1; transform: translateY(-8px) translateX(0px) scale(1.05); }
+    45% {opacity: 1; transform: translateY(13px) translateX(0px) scale(.98); }
+    75% {opacity: 1; transform: translateY(0px) translateX(5px) scale(1); }
+    100% {opacity: 1; transform: translateY(13px) translateX(7px) scale(1); }
+
+}
